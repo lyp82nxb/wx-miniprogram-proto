@@ -1,14 +1,43 @@
 {
   "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/home/home",
+    "pages/search/search",
+    "pages/category/category",
+    "pages/video/video",
+    "pages/profile/profile"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+  "window": {
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "小程序"
   },
-  "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "assets/tabbar/home.png",
+      "selectedIconPath": "assets/tabbar/home-active.png"
+    },{
+      "pagePath": "pages/search/search",
+      "text": "搜索",
+      "iconPath": "assets/tabbar/search.png",
+      "selectedIconPath": "assets/tabbar/search-active.png"
+    },{
+      "pagePath": "pages/category/category",
+      "text": "分类",
+      "iconPath": "assets/tabbar/category.png",
+      "selectedIconPath": "assets/tabbar/category-active.png"
+    },{
+      "pagePath": "pages/video/video",
+      "text": "视频",
+      "iconPath": "assets/tabbar/video.png",
+      "selectedIconPath": "assets/tabbar/video-active.png"
+    },{
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "assets/tabbar/profile.png",
+      "selectedIconPath": "assets/tabbar/profile-active.png"
+    }],
+    "selectedColor": "#ff5777"
+  }
 }
